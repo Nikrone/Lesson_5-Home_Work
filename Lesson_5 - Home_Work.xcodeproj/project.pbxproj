@@ -13,6 +13,8 @@
 		71A2086126BC1FB6004C0C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A2085F26BC1FB6004C0C0A /* Main.storyboard */; };
 		71A2086326BC1FB8004C0C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A2086226BC1FB8004C0C0A /* Assets.xcassets */; };
 		71A2086626BC1FB8004C0C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A2086426BC1FB8004C0C0A /* LaunchScreen.storyboard */; };
+		71A2086E26BC5AD0004C0C0A /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2086D26BC5AD0004C0C0A /* Beer.swift */; };
+		71A2087026BC5AEF004C0C0A /* BeerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2086F26BC5AEF004C0C0A /* BeerBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		71A2086226BC1FB8004C0C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A2086526BC1FB8004C0C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A2086726BC1FB8004C0C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A2086D26BC5AD0004C0C0A /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		71A2086F26BC5AEF004C0C0A /* BeerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				71A2085926BC1FB6004C0C0A /* AppDelegate.swift */,
 				71A2085B26BC1FB6004C0C0A /* SceneDelegate.swift */,
+				71A2086D26BC5AD0004C0C0A /* Beer.swift */,
+				71A2086F26BC5AEF004C0C0A /* BeerBar.swift */,
 				71A2085D26BC1FB6004C0C0A /* ViewController.swift */,
 				71A2085F26BC1FB6004C0C0A /* Main.storyboard */,
 				71A2086226BC1FB8004C0C0A /* Assets.xcassets */,
@@ -139,7 +145,9 @@
 			files = (
 				71A2085E26BC1FB6004C0C0A /* ViewController.swift in Sources */,
 				71A2085A26BC1FB6004C0C0A /* AppDelegate.swift in Sources */,
+				71A2087026BC5AEF004C0C0A /* BeerBar.swift in Sources */,
 				71A2085C26BC1FB6004C0C0A /* SceneDelegate.swift in Sources */,
+				71A2086E26BC5AD0004C0C0A /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
