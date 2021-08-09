@@ -35,9 +35,12 @@ class BeerBar {
     }
     
     
-//    не получилось выполнить задание (Написать статистику)
+
     func printStatisticsBeerBar() -> String {
-        let statisticBeerBar = allBeersToStore.compactMap({allBeersToStore in String()})
+//        let statisticBeerBar = allBeersToStore.compactMap({beer in beer.informationAboutBeer()})
+        let statisticBeerBar = allBeersToStore.map { beer in
+            return beer.informationAboutBeer()
+        }
         let unionString = statisticBeerBar.joined(separator: "\n \n")
 
         return unionString
